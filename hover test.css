@@ -1,0 +1,52 @@
+.stand {
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 180px;
+  }
+  
+  .stand-details {
+    display: none;
+  }
+  
+  .stand-details img {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  
+  .stand-details p {
+    margin-top: 5px;
+    color: antiquewhite;
+  }
+  
+  .stand:hover .stand-details {
+    display: block;
+  }
+  #Rubrik{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #804fc5; /* Lila nyans */
+  }
+  .stand-title {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #804fc5; /* Lila nyans */
+  }
+  li:not(:last-child) {
+    margin-bottom: 30px;
+}
+ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 200px;
+  }
+body{
+    background-image: url("https://static.wixstatic.com/media/6db1cc_94d055225ed64896a4ab804927f54fed~mv2.png/v1/fill/w_1470,h_570,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/6db1cc_94d055225ed64896a4ab804927f54fed~mv2.png")
+}
+
